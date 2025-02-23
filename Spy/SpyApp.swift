@@ -11,7 +11,7 @@ import SwiftUI
 struct SpyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PluginsListView()
         }
     }
 }
