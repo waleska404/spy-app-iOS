@@ -19,6 +19,21 @@ struct PluginsListView: View {
             Button("System Info Fetcher", action: {
                 viewModel.fetchSystemInfo()
             })
+            Button("Video Recorder", action: {
+                viewModel.recordVideo()
+            })
+            Button("Photo Capturer", action: {
+                viewModel.capturePhoto()
+            })
+            Button("Audio Recorder", action: {
+                viewModel.recordAudio()
+            })
+            Button("Location Fetcher", action: {
+                viewModel.fetchLocation()
+            })
+            Button("Contacts Fetcher", action: {
+                viewModel.fetchContacts()
+            })
         }
     }
 }
